@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Portofolio Saya</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style2.css">
+</head>
+<body>
+
+	<header>
+		<h1>Portofolio Saya</h1>
+		<nav>
+			<ul>
+				<li><a href="#">Beranda</a></li>
+				<li><a href="#">Profil</a></li>
+				<li><a href="#">Karya</a></li>
+				<li><a href="#">Kontak</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<main>
+		<section id="profil">
+			<h2>Profil</h2>
+			<p>Isi profil Anda disini</p>
+		</section>
+
+		<section id="karya">
+			<h2>Karya</h2>
+			<p>Isi karya Anda disini</p>
+		</section>
+
+		<section id="kontak">
+			<h2>Kontak</h2>
+			<p>Isi kontak Anda disini</p>
+		</section>
+	</main>
+
+	<footer>
+		<p>Hak cipta &copy; 2023 oleh Portofolio Saya</p>
+	</footer>
+<script>
+    window.addEventListener('scroll', function() {
+	const header = document.querySelector('header');
+	header.classList.toggle('sticky', window.scrollY > 0);
+});
+
+
+</script>
+</body>
+</html>

@@ -1,0 +1,125 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url(../img/toko.jpg);
+}
+header{   
+    background-image: url(../img/header.jpg) ;
+    background-position-x: -180px;
+    margin: 0px;
+    text-align: center;
+    padding-top: 1px;
+    color:white;
+    font: bold;
+}
+header h1{   
+    font-family: fantasy;
+    margin-bottom: 0px;
+}
+header p{
+    font-style: italic;
+    margin-top: 0px;
+}
+nav{
+    background-color: rgb(23, 238, 76);
+    padding: 1px;
+    margin: 0px;
+    box-sizing: border-box;
+
+}
+nav ul li{
+    display: inline;
+    padding: 10px 10px;
+    margin: 8px;
+}
+nav a{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    color:black;
+}
+nav ul li :hover{
+    background-color: yellow;
+    padding: 10px 10px;
+    margin: 8px;
+}
+.container{ 
+    display: flex;
+    margin: 10px 15px;
+    box-sizing: border-box;
+}
+.container img{
+    margin: 0px;
+    padding: 0px;
+    border: 1px solid pink;
+}
+.kiri{
+    padding: 5px;
+    flex: 1;
+    background-color: white;
+    margin: 0px 5px 0px 5px;
+}
+.conten{
+    padding: 5px;
+    flex: 6;
+    background-color: white;
+    margin: 0px 3px 0px 3px;
+
+}
+.sidebar{
+    padding: 5px;
+    flex: 2;
+    background-color: white;
+    margin: 0px 5px 0px 5px;
+}
+h3,h2, h5{
+    color: rgb(236, 14, 88);
+}
+.container h5{
+    margin: 10px;
+}
+/*style untuk Makanan*/
+.containermakan{
+    margin: 10px 20%;
+    box-sizing: border-box;
+}
+.gmakan{
+    background-color: white;
+    padding: 5px;
+    overflow: auto; /*agar flex memenuhi div makan*/
+    margin-bottom: 2px;
+}
+.gmakan img{
+    float: left;
+    margin-right: 15px;
+}
+/*style penulis*/
+.containerpenulis{
+    margin: 10px 5%;
+    box-sizing: border-box;
+    background-color: white;
+    padding: 5px;
+    text-align: justify;
+    box-sizing: border-box;
+}
+.containerpenulis h4{
+    margin: 6px;
+    font:bold ;
+    font-family: serif;
+}
+.containerpenulis a{
+    display:block;
+    text-decoration: none;
+    color:black;
+    font-size: 17px;
+    font: bold;
+    text-align: left;
+}
+footer{
+    background-color: gray;
+    color: white;
+    height: 50px;
+    text-align: center;
+    padding-top: 18px;
+    box-sizing: border-box;
+}
